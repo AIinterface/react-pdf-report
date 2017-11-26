@@ -1,0 +1,22 @@
+{
+  "name": "pdf-report-builder",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "pdfmake": "^0.1.34",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build -p",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "serve -s build"
+  },
+  "devDependencies": {
+    "uglify-js-brunch": "^2.10.0"
+  }
+}
