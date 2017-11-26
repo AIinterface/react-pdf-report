@@ -9,5 +9,4 @@ cache:
 install:
   - yarn
 script:
-  - yarn global add serve
   - yarn build

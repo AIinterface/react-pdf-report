@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './App.css'
 import { BasicReport } from './Pdf'
 import data from './Example/example'
-import 'font-awesome/css/font-awesome.min.css'
 
 class App extends Component {
   render() {
@@ -85,7 +84,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <BasicReport name=" Test" className="fa fa-file-pdf-o text-size-11px fa-lg button-extra-large" {...pdfProps} />
+        <BasicReport name=" Test" className="text-size-11px button-extra-large" {...pdfProps} />
       </div>
     );
   }

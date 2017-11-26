@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "font-awesome": "^4.7.0",
     "pdfmake": "^0.1.34",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "source-map-explorer": "^1.5.0"
   },
   "scripts": {
+    "analyze": "source-map-explorer build/static/js/main.*",
     "start": "react-scripts start",
     "build": "react-scripts build -p",
     "test": "react-scripts test --env=jsdom",
