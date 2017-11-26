@@ -2,8 +2,14 @@ language: node_js
 node_js:
   - "8"
 sudo: false
+cache:
+  yarn: true
+  directories:
+    - node_modules
 install:
-  - npm install
+  - yarn
+before-script: 
+  - yarn global add serve
 script:
-  - npm run build
-  - npm run serve
+  - yarn build
+  - yarn serve
