@@ -11,4 +11,3 @@ install:
 script:
   - yarn global add serve
   - yarn build
-  - yarn serve
