@@ -8,8 +8,7 @@ cache:
     - node_modules
 install:
   - yarn
-before-script: 
-  - yarn global add serve
 script:
+  - yarn global add serve
   - yarn build
   - yarn serve
