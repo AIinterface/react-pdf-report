@@ -6,5 +6,5 @@ sudo: false
 install:
   - npm install
 script:
-  - npm build
-  - npm serve
+  - npm run build
+  - npm run serve
