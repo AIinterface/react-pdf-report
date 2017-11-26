@@ -83,6 +83,18 @@ class App extends Component {
       data: data
     }
 
+    const pdfProps = {
+      width: ['6%', '17%', '16%', '16%', '15%', '15%', '15%'],
+      pageMargins: [50, 130, 50, 60],
+      tableStyle: styles,
+      layout: "noBorder",
+      header: [],
+      tableHeader: tableHeader,
+      tableBody: tableBody,
+      tableFooter: tableFooter,
+      data: data
+    }
+
     return (
       <div className="App">
         <BasicReport name=" Test" className="fa fa-file-pdf-o text-size-11px fa-lg button-extra-large" {...pdfProps} />
